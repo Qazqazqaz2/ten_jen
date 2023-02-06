@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Med Sans";
+  src: url('https://bin.bnbstatic.com/static/fonts/bp/BinancePlex-SemiBold.woff2');
+}
+
+.navbar {
+    background-color: #444;
+    position:fixed;
+    display: inline-block;
+    width: 100%;
+    color: light;
+    z-index: 1;
+}
+
+.navbar-brand, .sign {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-family: "BinancePlex-SemiBold";
+  font-size: 21px;
+  color: #d69245;
+}
+
+a{
+  font-family: "BinancePlex-SemiBold";
+  font-size: 21px;
+}
+
+.home-brand{
+  font-family: "BinancePlex-SemiBold";
+  font-size: 48px;
+  color: #d69245;
+  float: center;
+}
+
+.container {
+  padding-top: 200px;
+}
+
+
+.navbar-brand:hover, .sign:hover{
+    color: #d6d145;
+}
+
+.navbar-nav, nav-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-item, .navbar-nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
+.intro {
+  padding-top: 8%;
+}
+.carousel {
+  width:640px;
+  height:360px;
+}
+
+.statistics {
+   margin-top: 7%;
+   padding-top: 2%;
+   background: #444;
+   width: 100%;
+}
+.card-gray {
+   background: #444;
+   border: 0;
+}
+
+.statistics-text {
+   color: #c2b689;
+}
+
+html, body {
+  overflow: auto;
+}
+
+#canvas {
+    position:fixed;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgb(73,46,27);
+    background: linear-gradient(0deg, rgba(73,46,27,1) 0%, rgba(124,28,28,1) 94%);
+    z-index: -999;
+}
+
+.prewiew {
+  padding-top: 150px;
+  padding-bottom: 0;
+}
+
+.first-block, .border {
+  margin-top: 15%;
+  z-index:2;
+  padding-top: 0;
+}
+
+.overlay {
+  z-index: 1;
+  margin-top: -2%;
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 0, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 9px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 9px) calc(100% - 6px) no-repeat,
+            linear-gradient(1deg, transparent 79%, #1ce8f6 83%, rgba(28, 232, 246, 0.585) 86%, #ab2828 93%, #cd1d41 98%);
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.parallelogram {
+  width: 80%;
+  height: 400px;
+  transform: skew(20deg);
+  background: #fff;
+  margin-bottom: 100px;
+  text-decoration: none;
+}
+
+.about h1{
+    color: #fff;
+    border-bottom: 4px red solid;
+}
+
+.parallelogram h1, .parallelogram h3{
+  transform: skewX(-20deg);
+  padding: 20px;
+}
